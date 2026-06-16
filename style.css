@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial;
+  background: linear-gradient(135deg, #e6f7ff, #ffffff);
+  text-align: center;
+}
+
+/* CONTAINER */
+.container {
+  margin-top: 90px;
+  padding: 20px;
+}
+
+/* TITLE */
+h1 {
+  font-size: 38px;
+  color: #3a6ea5;
+}
+
+/* TEXT */
+p {
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+/* STICKERS */
+.top-sticker, .bottom-sticker {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+/* ROW STICKERS */
+.sticker-row {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #3a6ea5;
+  background: rgba(255,255,255,0.7);
+  border: 2px solid #b3e5ff;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+/* BUTTON HOVER */
+.btn:hover {
+  transform: scale(1.1);
+  background: #b3e5ff;
+  color: white;
+}
+
+/* SMALL BUTTON */
+.small {
+  margin-top: 40px;
+}
+
+/* CARD BOX */
+.card-box {
+  margin-top: 30px;
+}
+
+/* CARDS */
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  background: white;
+  border: 2px solid #d6f0ff;
+  text-decoration: none;
+  color: #3a6ea5;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* CARD HOVER */
+.card:hover {
+  transform: translateY(-8px);
+  background: #eaf7ff;
+}
